@@ -1,0 +1,13 @@
+[
+    {
+        "UpdateStageName": "Lavalink Download",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "Lavalink.jar",
+        "UpdateSourceArgs": "lavalink-devs/Lavalink",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": true
+    }
+]
