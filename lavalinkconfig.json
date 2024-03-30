@@ -1,1 +1,67 @@
-[]
+[
+    {
+        "DisplayName": "Server IP",
+        "Category": "Server Settings",
+        "Description": "IP for the server",
+        "Keywords": "IP ADDRESS",
+        "FieldName": "SERVER_ADDRESS",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SERVER_ADDRESS",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0.0.0.0",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Port",
+        "Category": "Server Settings",
+        "Description": "Port for the server",
+        "Keywords": "port",
+        "FieldName": "SERVER_PORT",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "SERVER_PORT",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8105",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "Server Settings",
+        "Description": "Password for the server",
+        "Keywords": "Password",
+        "FieldName": "LAVALINK_SERVER_PASSWORD",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "LAVALINK_SERVER_PASSWORD",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "youshallnotpass",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Youtube email",
+        "Category": "Youtube Settings",
+        "Description": "Email to connect to youtube",
+        "Keywords": "Email",
+        "FieldName": "LAVALINK_SERVER_YOUTUBECONFIG_EMAIL",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "LAVALINK_SERVER_YOUTUBECONFIG_EMAIL",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Youtube Password",
+        "Category": "Youtube Settings",
+        "Description": "Email password for youtube",
+        "Keywords": "Password",
+        "FieldName": "LAVALINK_SERVER_YOUTUBECONFIG_PASSWORD",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "LAVALINK_SERVER_YOUTUBECONFIG_PASSWORD",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]
