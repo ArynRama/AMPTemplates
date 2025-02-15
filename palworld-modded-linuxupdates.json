@@ -28,7 +28,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "UE4SS_0.0.0.zip",
-        "UpdateSourceArgs": "Yangff/RE-UE4SS",
+        "UpdateSourceArgs": "https://github.com/Yangff/RE-UE4SS/releases/download/linux-experiment/UE4SS_0.0.0.zip",
         "UpdateSourceTarget": "/palworld/UE4SS/",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
