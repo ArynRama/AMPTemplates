@@ -31,7 +31,7 @@ App.RootDir=./palworld/
 App.BaseDirectory=./palworld/2394010/
 App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=2394010\Pal\Binaries\Win64\PalServer-Win64-Shipping-Cmd.exe
-App.ExecutableLinux=2394010/Pal/Binaries/Linux/PalServer-Linux-Shipping
+App.ExecutableLinux=2394010/PalServer
 App.WorkingDir=2394010
 App.LinuxCommandLineArgs= dir ||
 App.WindowsCommandLineArgs=
@@ -87,7 +87,7 @@ App.ApplicationReadyMode=RCONConnected
 Console.FilterMatchRegex=(Setting breakpad minidump AppID = 1623730|\[S_API FAIL\] Tried to access Steam interface .* before SteamAPI_Init succeeded\.|Pong)
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
-Console.AppReadyRegex=^$
+Console.AppReadyRegex=Console.AppReadyRegex=^Running\s+Palworld\s+dedicated\s+server\s+on\s+:\[\d+-\d+\]\+$
 Console.UserJoinRegex=^(?:\[[\d-]+ [\d:]+\] \[LOG\] )?(?<username>.+) (?<endpoint>.+?) connected the server\. \(User id: (?<userid>.+?)\)$
 Console.UserLeaveRegex=^(?:\[[\d-]+ [\d:]+\] \[LOG\] )?(?<username>.+) left the server\. \(User id: (?<userid>.+?)\)$
 Console.UserChatRegex=^$
