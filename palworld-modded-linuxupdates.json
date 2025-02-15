@@ -27,7 +27,7 @@
         "UpdateStageName": "Downloading UE5SS (Linux)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/ArynRama/AMPTemplates/refs/heads/main/UE4SS_0.0.0.zip",
+        "UpdateSourceData": "https://raw.githubusercontent.com/ArynRama/AMPTemplates/main/UE4SS_0.0.0.zip",
         "UpdateSourceTarget": "",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
