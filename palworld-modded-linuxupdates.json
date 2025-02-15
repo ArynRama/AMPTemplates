@@ -31,7 +31,7 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "createExecutable.sh",
+        "UpdateSourceArgs": "{{$FullRootDir}}createExecutable.sh",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
