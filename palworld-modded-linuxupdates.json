@@ -24,7 +24,7 @@
         "OverwriteExistingFiles": true
     },
     {
-        "UpdateStageName": "Downloading UE4SS (Linux)",
+        "UpdateStageName": "Downloading UE8SS (Linux)",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/ArynRama/AMPTemplates/main/UE4SS_0.0.0.zip",
