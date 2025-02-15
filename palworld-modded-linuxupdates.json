@@ -35,6 +35,17 @@
         "OneShot": false
     },
     {
+        "UpdateStageName": "Extracting UE4SS",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceArgs": "UE4SS_0.0.0.zip",
+        "UpdateSourceTarget": "{{$FullRootDir}}/2394010/UE4SS",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": true,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
         "UpdateStageName": "Generating Files",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "StartApplication",
