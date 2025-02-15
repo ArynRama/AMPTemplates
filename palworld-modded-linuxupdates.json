@@ -39,7 +39,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "ExtractArchive",
         "UpdateSourceArgs": "{{$FullRootDir}}/UE4SS_0.0.0.zip",
-        "UpdateSourceTarget": "{{$FullRootDir}}/2394010/UE4SS",
+        "UpdateSourceTarget": "2394010/UE4SS",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
