@@ -28,10 +28,10 @@
         "OneShot": false
     },
     {
-        "UpdateStageName": "Creating Server Start Executable",
+        "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "{{$FullRootDir}}createExecutable.sh",
+        "UpdateSource": "SetExecutableFlag",
+        "UpdateSourceArgs": "createExecutable.sh",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
@@ -44,7 +44,7 @@
         "UpdateSourceData": "{{$FullRootDir}}createExecutable.sh",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
     },
     {
