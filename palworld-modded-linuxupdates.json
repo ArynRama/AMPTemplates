@@ -26,12 +26,13 @@
     {
         "UpdateStageName": "Downloading UE5SS (Linux)",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GithubRelease",
+        "UpdateSource": "FetchURL",
         "UpdateSourceData": "UE4SS_0.0.0.zip",
-        "UpdateSourceArgs": "Yangff/RE-UE4SS:linux-experiment",
+        "UpdateSourceArgs": "Yangff/RE-UE4SS",
+        "UpdateSourceTarget": "/palworld/UE4SS/",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
         "OneShot": false
     },
     {
