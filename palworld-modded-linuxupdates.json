@@ -38,7 +38,7 @@
         "UpdateStageName": "Extracting UE4SS",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./palworld/UE4SS_0.0.0.zip",
+        "UpdateSourceArgs": "{{$FullRootDir}}/UE4SS_0.0.0.zip",
         "UpdateSourceTarget": "{{$FullRootDir}}/2394010/UE4SS",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": true,
