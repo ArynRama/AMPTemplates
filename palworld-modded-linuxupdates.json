@@ -27,16 +27,7 @@
         "DeleteAfterExtract": true,
         "OneShot": false
     },
-    {
-        "UpdateStageName": "",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "SetExecutableFlag",
-        "UpdateSourceArgs": "{{$FullRootDir}}createExecutable.sh",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
+    
     {
         "UpdateStageName": "Creating Server Start Executable",
         "UpdateSourcePlatform": "Linux",
