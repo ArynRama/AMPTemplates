@@ -31,7 +31,7 @@
         "UpdateStageName": "Creating Server Start Executable",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "./createExecutable.sh",
+        "UpdateSourceData": "{{$FullRootDir}}createExecutable.sh",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
