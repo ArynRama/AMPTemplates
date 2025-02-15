@@ -33,9 +33,9 @@ App.SteamWorkshopDownloadLocation=
 App.ExecutableWin=2394010\Pal\Binaries\Win64\PalServer-Win64-Shipping-Cmd.exe
 App.ExecutableLinux=2394010/Pal/Binaries/Linux/PalServer-Linux-Shipping
 App.WorkingDir=2394010
-App.LinuxCommandLineArgs=
+App.LinuxCommandLineArgs= LD_PRELOAD=2394010/UE4SS/libUE4SS.so
 App.WindowsCommandLineArgs=
-App.CommandLineArgs=echo "$PlatformArgs"
+App.CommandLineArgs= {{$PlatformArgs}} Pal {{CommunityServer}}-Port={{$GamePort}} -QueryPort={{$QueryPort}} -RCONPort={{$RCONPort}} -MultiHome={{$ApplicationIPBinding}} -publicport={{$GamePort}} -publicip={{PublicIP}} -players={{$MaxUsers}} {{MultiThread}}{{$FormattedArgs}} {{CustomArgs}} -stdout -FullStdOutLogOutput
 App.UseLinuxIOREDIR=False
 App.AppSettings={}
 App.EnvironmentVariables={"LD_LIBRARY_PATH":"{{$FullBaseDir}}linux64:%LD_LIBRARY_PATH%","SteamAppId":"1623730"}
