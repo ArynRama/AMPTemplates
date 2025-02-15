@@ -28,19 +28,8 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://raw.githubusercontent.com/ArynRama/AMPTemplates/main/UE4SS_0.0.0.zip",
-        "UpdateSourceTarget": "",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": false,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Extracting UE4SS",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./UE4SS_0.0.0.zip",
-        "UpdateSourceTarget": "./2394010/UE4SS",
-        "UnzipUpdateSource": false,
+        "UpdateSourceTarget": "2394010/UE4SS",
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
