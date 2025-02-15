@@ -8,13 +8,6 @@
         "UpdateSourceVersion": "public"
     },
     {
-        "UpdateStageName": "SteamCMD Component Download",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "SteamCMD",
-        "UpdateSourceData": "1007",
-        "UpdateSourceTarget": "2394010/Pal/Binaries/Win64"
-    },
-    {
         "UpdateStageName": "Config Template Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "FetchURL",
