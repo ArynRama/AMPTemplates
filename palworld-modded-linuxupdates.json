@@ -27,24 +27,14 @@
         "DeleteAfterExtract": true,
         "OneShot": false
     },
-    
     {
         "UpdateStageName": "Creating Server Start Executable",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "{{$FullRootDir}}createExecutable.sh",
+        "UpdateSourceData": "{{$FullRootDir}}PalServer",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": false,
         "OneShot": false
-    },
-    {
-        "UpdateStageName": "Generating Files",
-        "UpdateSourcePlatform": "All",
-        "UpdateSource": "StartApplication",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": true
     }
 ]
