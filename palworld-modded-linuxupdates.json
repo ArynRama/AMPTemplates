@@ -1,0 +1,57 @@
+[
+    {
+        "UpdateStageName": "SteamCMD Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "2394010",
+        "UpdateSourceArgs": "1623730",
+        "UpdateSourceVersion": "public"
+    },
+    {
+        "UpdateStageName": "SteamCMD Component Download",
+        "UpdateSourcePlatform": "Windows",
+        "UpdateSource": "SteamCMD",
+        "UpdateSourceData": "1007",
+        "UpdateSourceTarget": "2394010/Pal/Binaries/Win64"
+    },
+    {
+        "UpdateStageName": "Config Template Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/CubeCoders/AMPTemplates/main/palworld1-9templatesettings.ini",
+        "UpdateSourceTarget": "{{$FullRootDir}}",
+        "UpdateSourceArgs": "AMP_PalWorldSettings.ini",
+        "OverwriteExistingFiles": true
+    },
+    {
+        "UpdateStageName": "Downloading UE5SS (Linux)",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "GithubRelease",
+        "UpdateSourceData": "UE4SS_0.0.0.zip",
+        "UpdateSourceArgs": "Yangff/RE-UE4SS",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Extracting UE5SS",
+        "UpdateSourcePlatform": "Linux",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceArgs": "UE4SS_0.0.0.zip",
+        "UpdateSourceTarget": "UE4SS",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "Generating Files",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    }
+]
