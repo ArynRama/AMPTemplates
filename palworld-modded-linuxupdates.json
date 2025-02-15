@@ -15,26 +15,5 @@
         "UpdateSourceTarget": "{{$FullRootDir}}",
         "UpdateSourceArgs": "AMP_PalWorldSettings.ini",
         "OverwriteExistingFiles": true
-    },
-    {
-        "UpdateStageName": "Downloading UE4SS (Linux)",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://raw.githubusercontent.com/ArynRama/AMPTemplates/main/UE4SS.zip",
-        "UpdateSourceTarget": "",
-        "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Creating Server Start Executable",
-        "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "{{$FullRootDir}}PalServer",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": false,
-        "OneShot": false
     }
 ]
