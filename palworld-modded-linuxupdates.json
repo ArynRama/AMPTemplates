@@ -28,9 +28,9 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "GithubRelease",
         "UpdateSourceData": "UE4SS_0.0.0.zip",
-        "UpdateSourceArgs": "Yangff/RE-UE4SS",
+        "UpdateSourceArgs": "Yangff/RE-UE4SS:linux-experiment",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     },
@@ -41,7 +41,7 @@
         "UpdateSourceArgs": "UE4SS_0.0.0.zip",
         "UpdateSourceTarget": "UE4SS",
         "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     },
@@ -52,6 +52,6 @@
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
-        "OneShot": false
+        "OneShot": true
     }
 ]
